@@ -1,7 +1,7 @@
 {
   "name": "fallback-preload",
   "description": "fallback preload",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "sasa+1 <sasaplus1@gmail.com>",
   "dependencies": {
     "type-check": "github:sasaplus1-prototype/type-check.js"
