@@ -3,6 +3,9 @@
   "description": "fallback preload",
   "version": "0.0.0",
   "author": "sasa+1 <sasaplus1@gmail.com>",
+  "dependencies": {
+    "type-check": "github:sasaplus1-prototype/type-check.js"
+  },
   "devDependencies": {
     "eslint": "^3.12.2",
     "fixpack": "^2.3.1",
