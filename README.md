@@ -25,7 +25,7 @@ via `<script>`
 ### Example
 
 ```html
-<link class="js-preload-css" rel="stylesheet" as="style" type="text/css" onload="this.rel='stylesheet'" href="/path/to/stylesheet.css">
+<link class="js-preload-css" rel="preload" as="style" type="text/css" onload="this.rel='stylesheet'" href="/path/to/stylesheet.css">
 <noscript>
   <link rel="stylesheet" href="/path/to/stylesheet.css">
 </noscript>
