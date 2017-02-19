@@ -3,11 +3,16 @@
 var isString = require('type-check/is-string');
 
 var isSupports = (function(){
-  var link = document.createElement('link');
+  var link = document.createElement('link'),
+      result;
 
-  return (
+  result = (
     link.relList && link.relList.supports && link.relList.supports('preload')
   );
+
+  link = null;
+
+  return result;
 }());
 
 /**
